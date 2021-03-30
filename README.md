@@ -24,7 +24,7 @@
 
 - [Project Description](#project-description)
 - [Reference Links](#reference-links)
-  - [Wedding Planner Application Live Link](https://wedding-planner-platform.herokuapp.com/)
+  - [Wedding Planner Application Live Link](https://vt-wedding-planner.herokuapp.com/)
   - [Wedding Planner Application GitHub Repo](https://github.com/wedding-planner-app/wedding-planner)
   - [Project Board](https://github.com/wedding-planner-app/wedding-planner/projects/1)
 - [User Stories](#user-stories)
@@ -54,7 +54,7 @@
 
 ## Reference Links
 
-Link to Wedding Planner Applications deployed on Heroku - [Wedding Planner Application Live Link](https://wedding-planner-platform.herokuapp.com/)
+Link to Wedding Planner Applications deployed on Heroku - [Wedding Planner Application Live Link](https://vt-wedding-planner.herokuapp.com/)
 
 Link to GitHub Repo used for application development - [Wedding Planner Application GitHub Repo](https://github.com/wedding-planner-app/wedding-planner)
 

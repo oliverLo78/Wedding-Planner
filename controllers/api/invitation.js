@@ -7,7 +7,7 @@ const getEmail = (token) => {
   console.log(token);
   decoded = jwt_decode(token);
   return decoded[
-    'https://wedding-planner-platform.herokuapp.com/email'
+    'https://vt-wedding-planner.herokuapp.com/email'
   ];
 };
 
