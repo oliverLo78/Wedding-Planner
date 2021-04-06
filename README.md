@@ -8,15 +8,15 @@
   - [Wedding Planner Application GitHub Repo](https://github.com/wedding-planner-app/wedding-planner)
   - [Project Board](https://github.com/wedding-planner-app/wedding-planner/projects/1)
 - [User Stories](#user-stories)
+- [Application MVP](#application-mvp)
 - [Concept](#concept)
-  - [Actions Diagram](#actions-diagram)
   - [Design](#design)
     - [Architecture](#architecture)
+    - [Actions Diagram](#actions-diagram)
     - [ER Diagram](#er-diagram)
     - [APIs Docs](#apis-docs)
     - [Whiteboards](#whiteboards)
     - [Wireframes](#wireframes)
-- [Application MVP](#application-mvp)
 - [Installation and Technology](#installation-and-technology)
   - [Installation Instructions](#installation-instructions)
   - [Core Project Technologies](#core-project-technologies)
@@ -82,21 +82,13 @@ In order to access the API data, we recommend using **Postman**, which is a REST
 
 #### Whiteboards
 
-<details>
-  <summary>Click to expand!</summary>
-  
   <p>Image 1</p>
   <img src="readme/imgs/wb1.png" width = "600px">
   <p>Image 2</p>
   <img src="readme/imgs/wb2.png" width = "600px">
-  
-</details>
 
 #### Wireframes
 
-<details>
-  <summary>Click to expand!</summary>
-  
   <p>Homepage webpage wireframe</p>
   <img src="readme/imgs/wireframe-homepage.png" width = "600px">
 
@@ -124,8 +116,6 @@ In order to access the API data, we recommend using **Postman**, which is a REST
   <p>FUTURE DEVELOPMENT - Media wireframe</p>
   <img src="readme/imgs/wireframe-media.png" width = "600px">
   
-</details>
-
 ## Installation and Technology
 
 Reference the subsections below for installation instructions and a list of technologies used for the development of this wedding planner application.
