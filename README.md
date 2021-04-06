@@ -46,10 +46,6 @@ I WANT to be able to organize all my events.
 SO THAT I can better plan weddings
 ```
 
-### Actions Diagram
-
-<img src="readme/imgs/uml.png" width = "600px">
-
 ### Design
 
 This section addresses the platforms's basic functionality and style/design utilized for the multiple features included thorughout the site.
@@ -59,6 +55,10 @@ This section addresses the platforms's basic functionality and style/design util
 This project is based on **MVC design** (_model-view-control_), which facilitates a better organization pattern for the code used to develop this web application. The MVC folder pattern helps separate the application's care back-end business logic, front-end UI design, and user interaction. The diagram included below outlines the architecture of this web application.
 
 <img src="readme/imgs/architecture-diagram.png" width = "800px">
+
+#### Actions Diagram
+
+<img src="readme/imgs/uml.png" width = "600px">
 
 ##### ER Diagram
 
