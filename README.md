@@ -26,7 +26,7 @@
 
 ## Project Description
 
-**Summer weddings** are in full swing!! To help make wedding planning easier, we would like to develop a _wedding planner web application_ that will help any wedding planner easily plan and organize all the details surrounding the big day. This application will allow users to create a profile under which they can create **one** or **more** wedding event plans.
+To help make wedding planning easier. We have develop a _wedding planner web application_ that will help any wedding planner easily plan and organize all the details surrounding the big day. This application will allow users to create a profile under which they can create **one** or **more** wedding event plans.
 
 ## Reference Links
 
