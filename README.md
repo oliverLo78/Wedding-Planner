@@ -82,9 +82,7 @@ In order to access the API data, we recommend using **Postman**, which is a REST
 
 #### Whiteboards
 
-  <p>Image 1</p>
   <img src="readme/imgs/wb1.png" width = "600px">
-  <p>Image 2</p>
   <img src="readme/imgs/wb2.png" width = "600px">
 
 #### Wireframes
