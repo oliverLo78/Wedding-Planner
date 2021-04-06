@@ -40,8 +40,8 @@ Link to Project Board used for application development - [Project Board](https:/
 
 ```
 AS a wedding planner
-I WANT to be able to use an online web application
-SO THAT I can better plan an awesome wedding
+I WANT to be able to organize all events in one place
+SO THAT I can better plan weddings
 ```
 
 ## Concept
