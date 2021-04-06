@@ -26,7 +26,9 @@
 
 ## Project Description
 
-This platform is a full stack web application that will allow a wedding planner to `plan` and `manage` a client’s wedding. Helping make wedding planning easier. This application will allow users to create a profile under which they can create **one** or **more** wedding event plans. The Wedding Planner application allows the user to keep all guests, invitations, venue information, and more in one place.
+This platform is a full stack web application that will allow a wedding planner to `plan` and `manage` a client’s wedding. Helping make wedding planning easier. 
+
+This application will allow users to create a profile under which they can create **one** or **more** wedding event plans. The user can store and manage all the guests, invitations, venue information, and more for each event in one place.
 
 ## Reference Links
 
@@ -39,8 +41,8 @@ Link to Project Board used for application development - [Project Board](https:/
 ## User Stories
 
 ```
-AS a wedding planner
-I WANT to be able to organize all events in one place
+AS a wedding planner.
+I WANT to be able to organize all my events.
 SO THAT I can better plan weddings
 ```
 
