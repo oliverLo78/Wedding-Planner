@@ -1,25 +1,5 @@
 # Wedding Planner
 
-![npm](https://img.shields.io/npm/v/babel-eslint?label=babel-eslint&logo=NPM)
-![npm](https://img.shields.io/npm/v/dotenv?color=yellow&label=dotenv&logo=NPM)
-![npm](https://img.shields.io/npm/v/express?color=green&label=express&logo=NPM)
-![npm](https://img.shields.io/npm/v/express-jwt?color=red&label=express-jwt&logo=NPM)
-![npm](https://img.shields.io/npm/v/if-env?color=orange&label=if-env&logo=NPM)
-![npm](https://img.shields.io/npm/v/jwks-rsa?color=purple&label=jwks-rsa&logo=NPM)
-![npm](https://img.shields.io/npm/v/jwt-decode?color=pink&label=jwt-decode&logo=NPM)
-![npm](https://img.shields.io/npm/v/morgan?color=lime&label=morgan&logo=NPM)
-![npm](https://img.shields.io/npm/v/nodemailer?color=plum&label=nodemailer&logo=NPM)
-![npm](https://img.shields.io/npm/v/pg?color=maroon&label=pg&logo=NPM)
-![npm](https://img.shields.io/npm/v/react-router-dom?color=yellowgreen&label=react-router-dom&logo=npm)
-![npm](https://img.shields.io/npm/v/request?color=9cf&label=request&logo=npm)
-![npm](https://img.shields.io/npm/v/sequelize?color=yellow&label=sequelize&logo=npm)
-
-<p align="center">
- <img src="readme/imgs/logo.png" alt="wedding planner logo" width="400px">
-</p>
-
----
-
 ### Table of Contents
 
 - [Project Description](#project-description)
@@ -44,13 +24,9 @@
 - [Future Development](#future-development)
 - [Team Members](#team-members)
 
----
-
 ## Project Description
 
 **Summer weddings** are in full swing!! To help make wedding planning easier, we would like to develop a _wedding planner web application_ that will help any wedding planner easily plan and organize all the details surrounding the big day. This application will allow users to create a profile under which they can create **one** or **more** wedding event plans.
-
----
 
 ## Reference Links
 
@@ -60,8 +36,6 @@ Link to GitHub Repo used for application development - [Wedding Planner Applicat
 
 Link to Project Board used for application development - [Project Board](https://github.com/wedding-planner-app/wedding-planner/projects/1)
 
----
-
 ## User Stories
 
 ```
@@ -69,8 +43,6 @@ AS a wedding planner
 I WANT to be able to use an online web application
 SO THAT I can better plan an awesome wedding
 ```
-
----
 
 ## Concept
 
@@ -152,8 +124,6 @@ When referencing the provided API documentation, consider accessing Postman by c
   
 </details>
 
----
-
 ## Application MVP
 
 - The user can **register** and **login** to the platform using **Auth0**.
@@ -163,8 +133,6 @@ When referencing the provided API documentation, consider accessing Postman by c
 - The user can list, create, edit, delete and search by (_name, email_) **guests**.
 - The user can send **invitations**.
 - The user can **logout** .
-
----
 
 ## Installation and Technology
 
@@ -238,7 +206,19 @@ The dependencies listed below are all the NPM packages used throughout this proj
 - `react-router-dom - DOM bindings for React Router`
 - `sequelize - A promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server`
 
----
+![npm](https://img.shields.io/npm/v/babel-eslint?label=babel-eslint&logo=NPM)
+![npm](https://img.shields.io/npm/v/dotenv?color=yellow&label=dotenv&logo=NPM)
+![npm](https://img.shields.io/npm/v/express?color=green&label=express&logo=NPM)
+![npm](https://img.shields.io/npm/v/express-jwt?color=red&label=express-jwt&logo=NPM)
+![npm](https://img.shields.io/npm/v/if-env?color=orange&label=if-env&logo=NPM)
+![npm](https://img.shields.io/npm/v/jwks-rsa?color=purple&label=jwks-rsa&logo=NPM)
+![npm](https://img.shields.io/npm/v/jwt-decode?color=pink&label=jwt-decode&logo=NPM)
+![npm](https://img.shields.io/npm/v/morgan?color=lime&label=morgan&logo=NPM)
+![npm](https://img.shields.io/npm/v/nodemailer?color=plum&label=nodemailer&logo=NPM)
+![npm](https://img.shields.io/npm/v/pg?color=maroon&label=pg&logo=NPM)
+![npm](https://img.shields.io/npm/v/react-router-dom?color=yellowgreen&label=react-router-dom&logo=npm)
+![npm](https://img.shields.io/npm/v/request?color=9cf&label=request&logo=npm)
+![npm](https://img.shields.io/npm/v/sequelize?color=yellow&label=sequelize&logo=npm)
 
 ## Future Development
 
@@ -251,15 +231,9 @@ For `future` development, we would like to incorporate the following feature `en
 - Allow wedding planner to import CSV data files.
 - Develop corresponding mobile app.
 
----
-
 ## Team Members
 
 - [Krystal Duran](https://github.com/KEDuran)
 - [Stephen Guzman](https://github.com/steveo9219)
 - [Vanessa Taylor](https://github.com/vantaylo)
 - [Yadira Tamarit](https://github.com/ystamaritq)
-
----
-
-[Table of Contents](#table-of-contents)
