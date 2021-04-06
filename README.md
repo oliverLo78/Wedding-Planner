@@ -46,6 +46,16 @@ I WANT to be able to organize all my events.
 SO THAT I can better plan weddings
 ```
 
+## Application MVP
+
+- The user can **register** and **login** to the platform using **Auth0**.
+- The user can see his/her **profile**.
+- The user can list, create, edit, and delete **wedding events**.
+- The user can **search venues** and assign to wedding event.
+- The user can list, create, edit, delete and search by (_name, email_) **guests**.
+- The user can send **invitations**.
+- The user can **logout** .
+
 ### Design
 
 This section addresses the platforms's basic functionality and style/design utilized for the multiple features included thorughout the site.
@@ -69,12 +79,6 @@ The entity relationship (ER) diagram below provides a visual representation of h
 #### APIs Docs
 
 In order to access the API data, we recommend using **Postman**, which is a REST API GUI client that you can download onto your local environment from the [Postman website](https://www.postman.com/). Please reference this [APIs Documentation](https://documenter.getpostman.com/view/11452429/T1LHHA3X) for details on the first steps users need to following in order to this applications **APIs**.
-
-When referencing the provided API documentation, consider accessing Postman by clicking on the a _Run_ in _Postman_ button as demonstrated in the photo below. If you have your API endpoints integrated with Postman, you can export your Postman collections as a widget to embed in an HTML page.
-
-<img src="readme/imgs/postman.png" width = "80px">
-  
-<img src="readme/imgs/p.png" width = "600px">
 
 #### Whiteboards
 
@@ -121,16 +125,6 @@ When referencing the provided API documentation, consider accessing Postman by c
   <img src="readme/imgs/wireframe-media.png" width = "600px">
   
 </details>
-
-## Application MVP
-
-- The user can **register** and **login** to the platform using **Auth0**.
-- The user can see his/her **profile**.
-- The user can list, create, edit, and delete **wedding events**.
-- The user can **search venues** and assign to wedding event.
-- The user can list, create, edit, delete and search by (_name, email_) **guests**.
-- The user can send **invitations**.
-- The user can **logout** .
 
 ## Installation and Technology
 
@@ -189,6 +183,20 @@ Here is a list of all the core technologies / core dependencies used to develop 
 
 ### Core Node Dependencies
 
+![npm](https://img.shields.io/npm/v/babel-eslint?label=babel-eslint&logo=NPM)
+![npm](https://img.shields.io/npm/v/dotenv?color=yellow&label=dotenv&logo=NPM)
+![npm](https://img.shields.io/npm/v/express?color=green&label=express&logo=NPM)
+![npm](https://img.shields.io/npm/v/express-jwt?color=red&label=express-jwt&logo=NPM)
+![npm](https://img.shields.io/npm/v/if-env?color=orange&label=if-env&logo=NPM)
+![npm](https://img.shields.io/npm/v/jwks-rsa?color=purple&label=jwks-rsa&logo=NPM)
+![npm](https://img.shields.io/npm/v/jwt-decode?color=pink&label=jwt-decode&logo=NPM)
+![npm](https://img.shields.io/npm/v/morgan?color=lime&label=morgan&logo=NPM)
+![npm](https://img.shields.io/npm/v/nodemailer?color=plum&label=nodemailer&logo=NPM)
+![npm](https://img.shields.io/npm/v/pg?color=maroon&label=pg&logo=NPM)
+![npm](https://img.shields.io/npm/v/react-router-dom?color=yellowgreen&label=react-router-dom&logo=npm)
+![npm](https://img.shields.io/npm/v/request?color=9cf&label=request&logo=npm)
+![npm](https://img.shields.io/npm/v/sequelize?color=yellow&label=sequelize&logo=npm)
+
 The dependencies listed below are all the NPM packages used throughout this project. Each package can be accessed on [the npmjs.com website](https://www.npmjs.com/). The descriptions for each NPM package listed below was gathered from [the npmjs.com website](https://www.npmjs.com/).
 
 - `babel-eslint - Allows the user to lint ALL valid Babel code with the fantastic ESLint`
@@ -203,20 +211,6 @@ The dependencies listed below are all the NPM packages used throughout this proj
 - `pg - Non-blocking PostgreSQL client for Node.js`
 - `react-router-dom - DOM bindings for React Router`
 - `sequelize - A promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server`
-
-![npm](https://img.shields.io/npm/v/babel-eslint?label=babel-eslint&logo=NPM)
-![npm](https://img.shields.io/npm/v/dotenv?color=yellow&label=dotenv&logo=NPM)
-![npm](https://img.shields.io/npm/v/express?color=green&label=express&logo=NPM)
-![npm](https://img.shields.io/npm/v/express-jwt?color=red&label=express-jwt&logo=NPM)
-![npm](https://img.shields.io/npm/v/if-env?color=orange&label=if-env&logo=NPM)
-![npm](https://img.shields.io/npm/v/jwks-rsa?color=purple&label=jwks-rsa&logo=NPM)
-![npm](https://img.shields.io/npm/v/jwt-decode?color=pink&label=jwt-decode&logo=NPM)
-![npm](https://img.shields.io/npm/v/morgan?color=lime&label=morgan&logo=NPM)
-![npm](https://img.shields.io/npm/v/nodemailer?color=plum&label=nodemailer&logo=NPM)
-![npm](https://img.shields.io/npm/v/pg?color=maroon&label=pg&logo=NPM)
-![npm](https://img.shields.io/npm/v/react-router-dom?color=yellowgreen&label=react-router-dom&logo=npm)
-![npm](https://img.shields.io/npm/v/request?color=9cf&label=request&logo=npm)
-![npm](https://img.shields.io/npm/v/sequelize?color=yellow&label=sequelize&logo=npm)
 
 ## Future Development
 
