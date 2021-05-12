@@ -11,9 +11,14 @@ var env = process.env.NODE_ENV || 'development';
 var config = require(__dirname + '/../config/config.json')[env];
 var db = {};
 
+console.log("*config* :", config);
+
 if (config.use_env_variable) {
+  console.log("Creating new instance by connection URI");
   var sequelize = new Sequelize(process.env[config.use_env_variable]);
 } else {
+  console.log("Creating new instance by passing parameters");
+
   var sequelize = new Sequelize(
     config.database,
     config.username,
