@@ -11,7 +11,7 @@ import BtnComponent from '../Button';
 import './style.css';
 import VenueCard from '../VenueCard';
 import axios from 'axios';
-import { Redirect } from 'react-router';
+// import { Redirect } from 'react-router';
 var qs = require('qs');
 
 const VenuesPageComponent = (props) => {

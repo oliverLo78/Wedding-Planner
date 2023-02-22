@@ -11,7 +11,7 @@ import Calendar from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
 import './style.css';
 import { useAuth0 } from '@auth0/auth0-react';
-import { Redirect } from 'react-router';
+import { Navigate } from 'react-router';
 var axios = require('axios');
 var qs = require('qs');
 
@@ -86,7 +86,7 @@ const NewReservationPage = () => {
 
   return (
     <Container className="pt-5 mb-5 fixed-margin">
-      {eventCreated && <Redirect to={nextUrl} />}
+      {eventCreated && <Navigate to={nextUrl} />}
 
       <Row className="d-flex flex-wrap flex-column mb-5 p-md-5 shadow-lg mb-3 card-custom-style">
         <h3 className="title-style text-center">
