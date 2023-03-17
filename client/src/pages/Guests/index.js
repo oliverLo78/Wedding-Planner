@@ -9,7 +9,8 @@ import {
   Col,
 } from 'react-bootstrap';
 import SearchTable from '../../components/SearchTable';
-import { textFilter } from 'react-bootstrap-table2-filter';
+// import { textFilter } from 'react-bootstrap-table2-filter';
+
 import './style.css';
 import axios from 'axios';
 import { useAuth0 } from '@auth0/auth0-react';
@@ -67,13 +68,13 @@ const GuestsPage = (props) => {
 
     const token = await getAccessTokenSilently();
 
-    var qs = require('qs');
-    var data = qs.stringify({
+    // var qs = require('qs');
+    var data = {
       name: name,
       email: email,
       phone: phone,
       eventid: eventId,
-    });
+    };
     var config = {
       method: 'post',
       url: '/api/guests',
@@ -155,9 +156,16 @@ const GuestsPage = (props) => {
     let id = selectedRow.id;
     if (!id) return;
 
-    var qs = require('qs');
-    var data = qs.stringify(selectedRow);
 
+    
+    // var qs = require('qs');
+    var data = {
+      name: selectedRow.name,
+      email: selectedRow.email,
+      phone: selectedRow.phone,
+      eventid: eventId,
+    };
+    
     var config = {
       method: 'put',
       url: `/api/guests/${id}`,
@@ -198,17 +206,17 @@ const GuestsPage = (props) => {
     {
       dataField: 'name',
       text: 'Name  ',
-      filter: textFilter({
-        placeholder: 'Search by name',
-      }),
+      //  filter: textFilter({
+      //  placeholder: 'Search by name',
+      //  }),
       sort: true,
     },
     {
       dataField: 'email',
       text: 'Email  ',
-      filter: textFilter({
-        placeholder: 'Search by email',
-      }),
+      // filter: textFilter({
+      // placeholder: 'Search by email',
+      // }),
       sort: true,
     },
     {
