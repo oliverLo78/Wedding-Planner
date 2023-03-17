@@ -1,8 +1,6 @@
-import React from 'react';
 import BootstrapTable from 'react-bootstrap-table-next';
-import filterFactory, {
-  textFilter,
-} from 'react-bootstrap-table2-filter';
+import React from 'react';
+
 
 const MediaTable = () => {
   const mediaListData = [
@@ -24,9 +22,19 @@ const MediaTable = () => {
     {
       dataField: 'mediaID',
       text: 'Media ID ',
-      filter: textFilter({
+      filter: {
         placeholder: 'Search by media ID',
-      }),
+        getFilter: (filter) => {
+          return {
+            test: (value, data) => {
+              return (
+                data.mediaID.toLowerCase().includes(value.toLowerCase()) ||
+                value === ''
+              );
+            },
+          };
+        },
+      },
     },
     {
       dataField: 'type',
@@ -50,7 +58,6 @@ const MediaTable = () => {
         data={mediaListData}
         keyField="weddind_id"
         columns={columns}
-        filter={filterFactory()}
       />
     </div>
   );
