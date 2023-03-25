@@ -69,6 +69,7 @@ const GuestsPage = (props) => {
     const token = await getAccessTokenSilently();
 
     // var qs = require('qs');
+
     var data = {
       name: name,
       email: email,
